@@ -20,5 +20,3 @@ public class ReverseNumber {
 		sc.close();
 	}
 }
-
-

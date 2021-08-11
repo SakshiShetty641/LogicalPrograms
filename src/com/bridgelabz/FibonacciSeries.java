@@ -11,13 +11,16 @@ public class FibonacciSeries {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		System.out.println("Fibonacci series are: ");
-
-		for (int i = 0; i < n; i++) {
+		System.out.print(num1+ " " +num2);
+		/**
+		 * Loop starts from 2 because 0 and 1 are already printed
+		 */
+		for (int i = 2; i < n; ++i) {
 			fib = num1 + num2;
+			System.out.print(" "+fib);
 			num1 = num2;
 			num2 = fib;
-			System.out.println(fib);
-		}
+			}
 		sc.close();
 	}
 }

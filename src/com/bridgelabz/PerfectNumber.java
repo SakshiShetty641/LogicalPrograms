@@ -12,8 +12,7 @@ public class PerfectNumber {
 		n = sc.nextLong();
 		int i = 1;
 		/**
-		 * While Loop executes till the condition is false sum is used to calculate sum
-		 * of factors
+		 * While Loop executes till the condition is false and sum is used to calculate sum of factors
 		 */
 		while (i <= n / 2) {
 			if (n % i == 0) {

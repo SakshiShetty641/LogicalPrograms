@@ -11,7 +11,7 @@ public class PrimeNumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number: ");
 		int n = sc.nextInt();
-        X = n / 2;
+		X = n / 2;
 		if (n == 0 || n == 1) {
 			System.out.println(n + " is not prime number");
 		} else {
@@ -29,5 +29,3 @@ public class PrimeNumber {
 		}
 	}
 }
-
-
